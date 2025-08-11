@@ -28,7 +28,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-20 text-center text-black px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
-              Brentwood Darshani
+              <span className="text-5xl sm:text-6xl mb-8 text-black/90 animate-fade-in max-w-2xl mx-auto">
+                Brentwood Darshani
+              </span>
               <span className="text-xl sm:text-2xl mb-8 text-black/90 animate-fade-in max-w-2xl mx-auto">
                 Authentic South Indian Catering
               </span>
